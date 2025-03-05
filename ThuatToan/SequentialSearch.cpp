@@ -2,11 +2,11 @@
 
 using namespace std;
 
-bool SequentialSearch(int a[], int n, int k){
+string SequentialSearch(int a[], int n, int k){
 	for(int i = 0; i < n; i++){
-		if(a[i] == k) return true;
+		if(a[i] == k) return "YES";
 	}
-	return false;
+	return "NO";
 }
 
 int main(){
