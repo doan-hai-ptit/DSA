@@ -13,7 +13,7 @@ void khoitao(){
 
 void sinh(){
 	int i = k;
-	while(i >=1 && a[i] == n-k+i){
+	while(i >= 1 && a[i] == n-k+i){
 		i--;
 	}
 	if(i==0)final = 1;
@@ -29,7 +29,7 @@ int main(){
 	cin >> n >> k;
 	khoitao();
 	for(int i = 1; i <= k; i++){
-			cout << a[i];
+		cout << a[i];
 	}
 	cout<<"\n";
 	while(!final){
